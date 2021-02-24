@@ -1,1 +1,195 @@
+```
 
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    background: yellow;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.header::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+@media (min-width: 768px) {
+.header {
+    width: 750px;
+}
+}
+@media (min-width: 992px) {
+.header {
+    width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .header {
+    width: 1170px;
+    }
+}
+
+
+
+
+
+
+.max-1,.max-2,.max-3,.max-4,.max-5,.max-6,.max-7,.max-8,.max-9,.max-10,.max-11,.max-12 {
+    float: left;
+}
+
+.max-12 {
+    width: 100%;
+}
+.max-11 {
+    width: 91.66666667%;
+}
+.max-10 {
+    width: 83.33333333%;
+}
+.max-9 {
+    width: 75%;
+}
+.max-8 {
+    width: 66.66666667%;
+}
+.max-7 {
+    width: 58.33333333%;
+}
+.max-6 {
+    width: 50%;
+}
+.max-5 {
+    width: 41.66666667%;
+}
+.max-4 {
+    width: 33.33333333%;
+}
+.max-3 {
+    width: 25%;
+}
+.max-2 {
+    width: 16.66666667%;
+}
+.max-1 {
+    width: 8.33333333%;
+}
+
+
+
+@media (min-width: 768px) {
+    .min-1, .min-2, .min-, .min-4, .min-5, .min-6, .min-7, .min-8, .min-9, .min-10, .min-11, .min-12 {
+    float: left;
+}
+.min-12 {
+    width: 100%;
+}
+.min-11 {
+    width: 91.66666667%;
+}
+.min-10 {
+    width: 83.33333333%;
+}
+.min-9 {
+    width: 75%;
+}
+.min-8 {
+    width: 66.66666667%;
+}
+.min-7 {
+    width: 58.33333333%;
+}
+.min-6 {
+    width: 50%;
+}
+.min-5 {
+    width: 41.66666667%;
+}
+.min-4 {
+    width: 33.33333333%;
+}
+.min-3 {
+    width: 25%;
+}
+.min-2 {
+    width: 16.66666667%;
+}
+.min-1 {
+    width: 8.33333333%;
+}
+
+}
+@media (min-width: 992px) {
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.col-md-12 {
+    width: 100%;
+}
+.col-md-11 {
+    width: 91.66666667%;
+}
+.col-md-10 {
+    width: 83.33333333%;
+}
+.col-md-9 {
+    width: 75%;
+} 
+.col-md-8 {
+    width: 66.66666667%;
+}
+.col-md-7 {
+    width: 58.33333333%;
+}
+.col-md-6 {
+    width: 50%;
+}
+.col-md-5 {
+    width: 41.66666667%;
+}
+.col-md-4 {
+    width: 33.33333333%;
+}
+.col-md-3 {
+    width: 25%;
+}
+.col-md-2 {
+    width: 16.66666667%;
+}
+.col-md-1 {
+    width: 8.33333333%;
+}
+
+}
+
+
+
+.bodyer> *{
+    border: 1px solid;
+    text-align: center;
+}
+
+.row> *{
+    border: 1px solid;
+    text-align: center;
+}
+
+.aside {
+    min-height: 200px;
+    background: pink;
+}
+
+.main {
+    min-height: 200px;
+    background: grey;
+}
+
+```
